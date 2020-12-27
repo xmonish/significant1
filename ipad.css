@@ -1,0 +1,189 @@
+/************************************************************************************
+*	IPAD PORTRAIT
+************************************************************************************/
+
+@media only screen and ( min-width: 768px) and ( max-width: 980px) {
+
+
+
+.mob-show { display:none;}
+
+/*========== Home ==========*/
+#home{width:100%; height:100%; position:relative;z-index:50; text-align:center;}
+#home::before{content:"";display:inline-block;height:20%;vertical-align:middle;}
+
+#sticky.stick #nav > .logo1 { left:150px;}
+#sticky.stick #nav>.logo img { display:block; float:left; height:30px; }
+/*========== Services ==========*/
+
+ul.services_list li { padding:0; margin:0em 0 5em 0; list-style:none; display:inline-block; text-align:center; width:48%; vertical-align:top;}
+
+h2 { font-size:1.5em;  color:#ef4023;}
+  
+/*========== Talent ==========*/
+ul.talent_list { padding:0em 0 0em 0; margin:0; text-align:center; display:block; float:left;}
+ul.talent_list li { padding:0; margin:0em 0 4em 0; list-style:none; display:inline-block; text-align:center; width:32.5%; vertical-align:top;}
+ul.talent_list h2 { color:#333; padding:0.3em 0 0.3em 0; text-transform:none; line-height:1.3em; letter-spacing:0em;}
+ul.talent_list h3 { color:#666; padding:0em 0 0.4em 0; text-transform:none; font-size:1em; line-height:1.3em; }
+
+/*========== Footer ==========*/
+#footer .footer_left { float:left; text-align:center; display:block; width:100%;}
+#footer .footer_right { float:left; text-align:center; display:block; width:100%;}
+
+ul.footer_links { width:100%; padding:0; margin:0; text-align:center;  width:100%;  }
+ul.footer_links li {  padding:16px 0px 16px 15px; margin:0; list-style:none; text-align:center; float:none; display:inline-block; vertical-align:top; color:#fff;  }
+
+#footer { position:relative;}
+#footer .footer_middle	{ position:absolute; float:none; bottom:0px; padding-top:10px; margin:0px;}
+
+
+ul.team-content li {min-height:270px; }
+
+
+
+/*========== timeline ==========*/
+ 
+
+ .timeline:before {
+    left: 78px;
+	top:2%;
+  }
+  .timeline .post,
+  .timeline .post:nth-child(even) {
+    margin: 0;
+    padding: 0 0 30px 160px;
+    width: 80%;
+  }
+  .timeline .post .timeline-time,
+  .timeline .post:nth-child(even) .timeline-time {
+    left: 0;
+    margin: 0 0 5px;
+    position: relative;
+    right: 0;
+    text-align: left;
+  }
+  .timeline .post .timeline-icon {
+    left: 0;
+    margin: 22px 0 0 6px;
+  }
+  .timeline .post .timeline-content:before,
+  .timeline .post:nth-child(even) .timeline-content:before {
+    
+  }
+  .timeline .post .timeline-content:before,
+  .timeline .post:nth-child(even) .timeline-content:before {
+    border: 15px solid transparent;
+    left: -30px;
+	/*border-color: transparent #ba8d0c transparent transparent;*/
+    right: auto;
+  }
+  .timeline .post .timeline-content.bg:before,
+  .timeline .post .timeline-content.border:before {
+   border: 15px solid transparent;
+    border-right-color: #ccc;
+  }
+  .timeline .post .timeline-content.bg-danger:before,
+  .timeline .post:nth-child(even) .timeline-content.bg-danger:before,
+  .timeline .post .timeline-content.border-danger:before,
+  .timeline .post:nth-child(even) .timeline-content.border-danger:before {
+    _border-right-color: #c10841;
+  }
+  .timeline .post .timeline-content.bg-warning:before,
+  .timeline .post:nth-child(even) .timeline-content.bg-warning:before,
+  .timeline .post .timeline-content.border-warning:before,
+  .timeline .post:nth-child(even) .timeline-content.border-warning:before {
+    border-right-color: #f89406;
+  }
+  .timeline .post .timeline-content.bg-info:before,
+  .timeline .post:nth-child(even) .timeline-content.bg-info:before,
+  .timeline .post .timeline-content.border-info:before,
+  .timeline .post:nth-child(even) .timeline-content.border-info:before {
+    border-right-color: #0098ca;
+  }
+  .timeline .post .timeline-content.bg-success:before,
+  .timeline .post:nth-child(even) .timeline-content.bg-success:before,
+  .timeline .post .timeline-content.border-success:before,
+  .timeline .post:nth-child(even) .timeline-content.border-success:before {
+    border-right-color: #738d00;
+  }
+  .timeline .post .timeline-content.bg-primary:before,
+  .timeline .post:nth-child(even) .timeline-content.bg-primary:before,
+  .timeline .post .timeline-content.border-primary:before,
+  .timeline .post:nth-child(even) .timeline-content.border-primary:before {
+    border-right-color: #428bca;
+  }
+  .timeline .post .timeline-content .entry-content img {
+    width: 100%;
+  }
+  #timeline .img-left { text-align:left; border-radius:0px; display:block;}
+  .circlimg { display:none;}
+  .timeline .post .timeline-round{left:-5px;}
+  .text-l{display:none;}
+  
+  
+.prodile-left { width:100%; float:left}
+.prodile-right {width:100%; float:left; text-align:left; margin:5px 0px;}
+
+
+}
+
+
+
+
+
+/************************************************************************************
+*	IPAD LANDSCAPE
+************************************************************************************/
+
+@media only screen and ( min-width: 979px) and ( max-width:1024px) {
+
+.timeline .post .timeline-icon { width:100px; height:100px; line-height:100px; font-size:30px; left:45px;}
+
+.timeline .post {width: 41%;}
+.timeline .post .timeline-round {left: 43%;}
+.timeline:before {top:11%; height:89%;}
+ 
+.prodile-left { width:100%; float:left}
+.prodile-right {width:100%; float:left; text-align:left; margin:5px 0px;}
+
+ul.team-content li {min-height:210px; }
+}
+
+
+
+
+/************************************************************************************
+*	IPAD LANDSCAPE / PORTRAIT
+************************************************************************************/
+
+@media only screen and ( min-width: 768px) and ( max-width:1024px) {
+
+#home > div { width:70%; }
+.wrap { max-width:95%; margin:0 auto;   }
+#Philosophy { background: url('images/pic-philosophy.jpg');  -o-background-size: cover; -moz-background-size: cover; -webkit-background-size:cover; background-size: cover; background-attachment: scroll; background-position: center center; display:block; }
+
+
+/*========== Top Nav ==========*/
+#sticky.stick #nav>.logo {  position:absolute; top:18px; left:0px; padding:0px; margin:0; float:left; }
+#sticky.stick #nav>.logo img { display:block; float:left; height:15px; }
+/*========== About ==========*/
+
+
+/*========== Contact ==========*/
+#contact_wrapper .contact_left { display:table-cell; width:48%; padding:1%; vertical-align:top;  }
+#contact_wrapper .conatct_right { display:table-cell; width:48%; padding:1%;  vertical-align:top;  } 
+
+/*========== Services ==========*/
+.servicepic-container	{width:100%;}
+ul.serviceslider li img	{float:left; display:block; width:100%; max-width:100%; height:auto; padding:0; margin:0}
+
+/*========== Talent ==========*/
+#talent_wrapper .talent_left {  width:45%; padding-right:3%;  display:table-cell;   vertical-align:top;}	
+#talent_wrapper .talent_right{  width:52%; display:table-cell;   vertical-align:top;}	
+
+.talentpic-container	{width:92%; height:auto}
+ul.sportslider li img 	{float:left; display:block;  max-width:100%; height:auto; padding:0px; margin:0}
+
+ul.brands_list li		{list-style: none; float: left; width:180px; margin: 0 10px 10px 0; padding:0; vertical-align:top; }
+
+}

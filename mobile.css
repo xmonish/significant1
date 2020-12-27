@@ -1,0 +1,260 @@
+/************************************************************************************
+*	MOBILE 767 * 220
+************************************************************************************/
+@media only screen and ( min-width: 220px) and ( max-width: 767px) {
+
+#home .site_logo .cornerstone p { margin:0px; padding:0px;}
+#home .site_logo .cornerstone img { width:100px; height:auto;}
+#home .site_logo .cornerstone .icon img  { width:30px; height:auto;} 
+#home .site_logo .cse img { width:80px; height:auto;}
+	
+.hide{ display:none;}
+.wrap { max-width:95%; margin:0 auto;   }
+.mob-show { display:none;}
+
+h1      {font-size:3em;     color:#ef4023;  }
+h2      {font-size:1.3em; line-height:2em; color:#ef4023; text-transform:uppercase; letter-spacing: 0.1em; }
+h3      {font-size:1em; line-height:1.8em; color:#333;  }
+h4      { font-size  : 0.8em; line-height:1.2em; color:#999999;   margin-bottom:5px;  text-transform:none;}
+
+#sticky.stick #nav > .logo1 { float:left; position:relative; left:110px;  }
+#sticky.stick #nav > .logo1 img { max-width:70px; height:auto; margin-left:70px; }
+
+  /*========== Home ==========*/
+#home{width:100%; height:100%; position:relative;z-index:50; text-align:center;}
+#home::before{content:"";display:inline-block;height:00%;vertical-align:middle;}
+
+#home .site_logo p {  display:block; text-align:center; padding:0em; margin:0;} 
+#home>div{display:inline-block;vertical-align:middle;position:relative;z-index:10;text-align:center; width:90%; }
+#home .site_desc p { font-size:1.2em; line-height:1.2em; color:#333; text-align:center; }
+#home .site_desc a {  color:#666; text-align:center; text-decoration:none; text-transform:uppercase;  font-size:0.8em; line-height:1.2em;  }
+
+
+.abourus {display:none; }
+/*========== Services ==========*/
+.visual-container .bxslider		{ display:none;}
+ul.services_list li { padding:0; margin:0em 0 3em 0;  width:48%; vertical-align:top;}
+
+
+
+ 
+.servicepic-container { width:100%;    }
+ul.serviceslider li img { float:left; display:block; width:100%; max-width:100%; height:auto; padding:0; margin:0}
+
+/*========== Talent ==========*/
+#Talent {  display:inline-block; width:100%; height:auto; }
+
+.talentpic-container { width:100%;   }
+ul.sportslider li img { float:left; display:block; width:100%; max-width:100%; height:auto; padding:0; margin:0}
+ul.brands_list li { list-style: none; float: left; width:180px; margin: 0 10px 10px 0; padding: 0; vertical-align:top; }
+ul.talent_list li { padding:0; margin:0em 0 3em 0;  width:48%; vertical-align:top;}
+
+
+/*========== About ==========*/
+
+#About #canvas	{ display:none}
+#About .about_wrapper {psition:relative; width:100%; height:100%; max-height:100%; margin:0 auto;  padding: 45px 0 0 0;}
+#About .about_wrapper .about-data {  position:relative; bottom:0; width:100%; height:auto;  background:#fff; vertical-align:top; }
+
+#About .about_wrapper .about_left { width:96%; padding:2%; float:left; display:block;  vertical-align:top;}	
+#About .about_wrapper .about_right{ width:96%; padding:2%; float:left; display:block; vertical-align:top;}	
+
+
+/*========== Clients ==========*/
+#Work_Done .work_left 	{width:96%; padding:2%; float:left; display:inline-block; vertical-align:top; border-bottom:1px solid #ccc; margin-bottom:2em}	
+#Work_Done .work_right	{width:96%; padding:2%; float:right; display:inline-block; vertical-align:top;}	
+
+#Work_Done .cs_left 	{width:96%; padding:2%; float:left; display:inline-block; vertical-align:top; border-bottom:1px solid #ccc; margin-bottom:2em}	
+#Work_Done .cs_right	{width:96%; padding:2%; float:right; display:inline-block; vertical-align:top;}	
+
+
+/*========== Contact ==========*/
+#Contact {    display:inline-block; width:100%; height:auto; position:relative;   }
+#map_canvas { display:none; }
+
+#contact_wrapper { display:block; width:100%; margin:0 auto; padding-top:0px; height:auto;     }
+#contact_wrapper .contact_left { display:table; width:96%; padding:2%; vertical-align:top;  }
+#contact_wrapper .conatct_right { display:table; width:96%; padding:2%;  vertical-align:top;  } 
+
+/*========== Footer ==========*/
+#footer { position:relative;  bottom:0; left:0; z-index:9999; font-size: 0.8em;  padding: 1em 0em 0em 0em; width:100%; background:#ebebeb; display:block; float:left;    }
+#footer .footer_left { float:left; width:100%;  display:block;  text-align:center;}
+#footer .footer_right { float:left; width:100%;  display:block;  text-align:center;}
+
+ul.footer_links { width:100%; padding:0; margin:0;  text-align:center; }
+ul.footer_links li {  padding:6px; margin:0; list-style:none; text-align:center; float:none; display:inline-block; width:auto;  vertical-align:top; color:#fff;  }
+
+
+#footer .footer_middle	{ position:absolute; float:none; bottom:0px; padding-top:10px; margin:0px}
+
+#header .innerlogo1 { width:80%; padding:0px;  }
+#header .innerlogo1 img {max-width:100%; height:auto;  }
+ul.team-content li { width:100%; padding:6% 0;  }
+
+
+/*========== timeline ==========*/
+.heading{ float:left; width:100%; }
+.gal-btn{ float:left; width:100%; text-align:left; margin-bottom:15px }
+
+
+ .timeline:before {
+    left: 20px;
+	top:2%;
+  }
+  .timeline .post,
+  .timeline .post:nth-child(even) {
+    margin: 0;
+    padding: 0 0 30px 60px;
+    width: 80%;
+  }
+  .timeline .post .timeline-time,
+  .timeline .post:nth-child(even) .timeline-time {
+    left: 0;
+    margin: 0 0 5px;
+    position: relative;
+    right: 0;
+    text-align: left;
+  }
+  .timeline .post .timeline-icon {
+    left: 0;
+    margin: 22px 0 0 6px;
+  }
+  .timeline .post .timeline-content:before,
+  .timeline .post:nth-child(even) .timeline-content:before {
+    
+  }
+  .timeline .post .timeline-content:before,
+  .timeline .post:nth-child(even) .timeline-content:before {
+    border: 15px solid transparent;
+    left: -30px;
+	/*border-color: transparent #ba8d0c transparent transparent;*/
+    right: auto;
+  }
+  .timeline .post .timeline-content.bg:before,
+  .timeline .post .timeline-content.border:before {
+   border: 15px solid transparent;
+    border-right-color: #ba8d0c;
+  }
+  .timeline .post .timeline-content.bg-danger:before,
+  .timeline .post:nth-child(even) .timeline-content.bg-danger:before,
+  .timeline .post .timeline-content.border-danger:before,
+  .timeline .post:nth-child(even) .timeline-content.border-danger:before {
+    _border-right-color: #c10841;
+  }
+  .timeline .post .timeline-content.bg-warning:before,
+  .timeline .post:nth-child(even) .timeline-content.bg-warning:before,
+  .timeline .post .timeline-content.border-warning:before,
+  .timeline .post:nth-child(even) .timeline-content.border-warning:before {
+    border-right-color: #f89406;
+  }
+  .timeline .post .timeline-content.bg-info:before,
+  .timeline .post:nth-child(even) .timeline-content.bg-info:before,
+  .timeline .post .timeline-content.border-info:before,
+  .timeline .post:nth-child(even) .timeline-content.border-info:before {
+    border-right-color: #0098ca;
+  }
+  .timeline .post .timeline-content.bg-success:before,
+  .timeline .post:nth-child(even) .timeline-content.bg-success:before,
+  .timeline .post .timeline-content.border-success:before,
+  .timeline .post:nth-child(even) .timeline-content.border-success:before {
+    border-right-color: #738d00;
+  }
+  .timeline .post .timeline-content.bg-primary:before,
+  .timeline .post:nth-child(even) .timeline-content.bg-primary:before,
+  .timeline .post .timeline-content.border-primary:before,
+  .timeline .post:nth-child(even) .timeline-content.border-primary:before {
+    border-right-color: #428bca;
+  }
+  .timeline .post .timeline-content .entry-content img {
+    width: 100%;
+  }
+  #timeline .img-left { text-align:left; border-radius:0px; display:block;}
+  .circlimg { display:none;}
+  .timeline .post .timeline-round{left:-5px;}
+  .text-l{display:none;}
+  
+  
+.prodile-left { width:100%; float:left}
+.prodile-right {width:100%; float:left; text-align:left; margin:5px 0px;}
+
+#Accomplishments .work_left { width:100%; float:left; margin:0px 0px 20px 0px; padding:0px;} 
+#Accomplishments .work_right { width:100%; float:left;  margin:0px 0px 20px 0px; padding:0px;}
+
+a.read-more1 {line-height:22pt;}
+a.read-more1 .icon-more {float:none; }
+
+.ss {display:block; } 
+.ss-space {padding-top:60px; }
+
+
+.sitemap-col1 {float:left; width:100%; } 
+.sitemap-col2 {float:left; width:100%; } 
+.sitemap-col3 {float:left; width:100%; } 
+
+
+
+
+#Contact footer { position:relative; }
+}
+
+
+/************************************************************************************
+*	MOBILE 480 * 220
+************************************************************************************/
+
+@media only screen and ( min-width: 220px) and ( max-width: 480px) {
+ 
+
+ /*========== Services ==========*/
+
+ul.services_list li { padding:0; margin:0em 0 2em 0;  width:100%; vertical-align:top;} 
+ 
+#services_wrapper {  width:100%;   display:table; clear:both; }	
+#services_wrapper .service_left { width:100%; padding-right:0%; padding-bottom:3%;  display:table;   vertical-align:top;}	
+#services_wrapper .service_right{ width:100%;   display:table;   vertical-align:top;}	
+#services_wrapper .service_right2{  width:100%;   display:table;   vertical-align:top; float:none;}	
+ 
+ /*========== Talent ==========*/
+
+#talent_wrapper {  width:100%;   display:table; clear:both; }	
+#talent_wrapper .talent_left {  width:100%; padding-right:0%; padding-bottom:3%;  display:table;   vertical-align:top;}	
+#talent_wrapper .talent_right{   width:100%; display:table;  padding-top:3%; vertical-align:top;}	
+
+#talent_wrapper .talent_heading {   width:100%;  float:left;   vertical-align:top; }	
+#talent_wrapper .talent_heading h2 {  vertical-align:top; line-height:0.7em; margin-bottom:0.7em; }	
+#talent_wrapper .talent_social {   width:100%;   float:left; vertical-align:top;}	
+#talent_wrapper .talent_social ul {   float:left;  padding:0; margin:0px 0px 10px 0px ; list-style:none; text-align:left; }
+
+ul.talent_list li { padding:0; margin:0em 0 2em 0;  width:100%; vertical-align:top;}
+
+ul.brands_list li { list-style: none; float: left; width:45%; margin: 0 5px 10px 5px; padding: 0; vertical-align:top; }
+ul.brands_list li img { float:left; display:block; width:100%; max-width:100%; height:auto; padding:0; margin:0}
+
+.prodile-left { width:100%; float:left}
+.prodile-right {width:100%; float:left; text-align:left; margin:5px 0px;}
+
+
+ 
+}
+
+
+/************************************************************************************
+*	MOBILE 480 * 321
+************************************************************************************/
+
+@media only screen and ( min-width: 321px) and ( max-width: 480px) {
+
+
+
+}
+
+
+/************************************************************************************
+*	MOBILE 640 * 481
+************************************************************************************/
+
+@media only screen and ( min-width: 481px) and ( max-width: 640px) {
+
+ 
+
+}
