@@ -17,7 +17,7 @@ body, div, h1, h2, h3, p, ul, ol, li, img, table, form, section, footer {
 }
 
 a		{color:#999; text-decoration:underline;}
-a:hover	{color:#ef4023; text-decoration:none;}
+a:hover	{color:#EE8C23; text-decoration:none;}
 a       {outline:none;}
 
  
@@ -143,7 +143,7 @@ ul.services_list { padding:2em 0 0em 0; margin:0; text-align:center; display:blo
 ul.services_list li { padding:0; margin:0em 0 5em 0; list-style:none; display:inline-block; text-align:center; width:30%; vertical-align:top;  }
 ul.services_list h2 { color:#333; padding:0.3em 0 0.3em 0; text-transform:none; font-size:1.5em; line-height:1.3em; letter-spacing:0em;}
 ul.services_list a {text-decoration:none;  -webkit-transition: all .6s ease;}
-ul.services_list a:hover h2 { color:#ef4023; }
+ul.services_list a:hover h2 { color:#EE8C23; }
 ul.services_list a:hover .icon-more {  width:30px; height:30px; background: url(images/icon-more.png) no-repeat; background-position:0 -50px;  }
 
 
@@ -200,7 +200,7 @@ ul.talent_list h2 { color:#333; padding:0.3em 0 0.3em 0; text-transform:none; li
 ul.talent_list h3 { color:#666; padding:0em 0 0.4em 0; text-transform:none; font-size:1.2em; line-height:1.3em; }
 
 ul.talent_list a {text-decoration:none;    transition: all .6s ease; -webkit-transition: all .6s ease; -moz-transition: all .6s ease; -ms-transition: all .6s ease; -o-transition: all .6s ease;}
-ul.talent_list a:hover h2 { color:#ef4023; }
+ul.talent_list a:hover h2 { color:/*#ef4023*/ #EE8C23; }
 ul.talent_list a:hover .icon-more {  width:30px; height:30px; background: url(images/icon-more.png) no-repeat; background-position:0 -50px;  }
 
 .pic-talent { width:100%; display:block; text-align:center;
@@ -431,7 +431,7 @@ HEADER TAGS
 *****************************************************************************************************************/
 h1, h2, h3, h4, h5, h6 {font-style:normal; font-weight:normal; margin:0px; padding:0px; }
 
-h1      {font-size:3em;     color:#ef4023;  }
+h1      {font-size:3em;     color:#EE8C23;  }
 h2      {font-size:2em; line-height:2em; color:#333; text-transform:uppercase; letter-spacing: 0.1em; }
 h3      {font-size:1.7em; line-height:1.3em; color:#333; margin-bottom:8px;}
 h4      { font-size:1.1em; line-height:1.2em; color:#999999;   margin-bottom:5px;  text-transform:none;}
