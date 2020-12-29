@@ -158,15 +158,15 @@ ul.services_list a:hover .icon-more {  width:30px; height:30px; background: url(
 }
  
 
-.icon-services1 {width:150px; height:150px; background: url(images/icon-services1.jpg) no-repeat; background-size:100%; background-position:0 0px;  display:inline-block; }
-.icon-services2 {width:150px; height:150px; background: url(images/icon-services8.jpg) no-repeat; background-size:100%; background-position:0 0px;  display:inline-block;   }
-.icon-services3 {width:150px; height:150px; background: url(images/icon-services9.jpg) no-repeat; background-size:100%; background-position:0 0px;  display:inline-block; }
-.icon-services4 {width:150px; height:150px; background: url(images/icon-services4.jpg) no-repeat; background-size:100%; background-position:0 0px;  display:inline-block; }
-.icon-services5 {width:150px; height:150px; background: url(images/icon-services5.jpg) no-repeat; background-size:100%; background-position:0 0px;  display:inline-block; }
-.icon-services6 {width:150px; height:150px; background: url(images/icon-services6.jpg) no-repeat; background-size:100%; background-position:0 0px;  display:inline-block; }
+.icon-services1 {width:150px; height:150px; background: url(green.PNG) no-repeat; background-size:100%; background-position:0 0px;  display:inline-block; }
+.icon-services2 {width:150px; height:150px; background: url(yellow.PNG) no-repeat; background-size:100%; background-position:0 0px;  display:inline-block;   }
+.icon-services3 {width:150px; height:150px; background: url(lightgreen.PNG) no-repeat; background-size:100%; background-position:0 0px;  display:inline-block; }
+.icon-services4 {width:150px; height:150px; background: url(neon.PNG) no-repeat; background-size:100%; background-position:0 0px;  display:inline-block; }
+.icon-services5 {width:150px; height:150px; background: url(blue.PNG) no-repeat; background-size:100%; background-position:0 0px;  display:inline-block; }
+/* .icon-services6 {width:150px; height:150px; background: url(images/icon-services6.jpg) no-repeat; background-size:100%; background-position:0 0px;  display:inline-block; }
 .icon-services7 {width:150px; height:150px; background: url(images/icon-services7.jpg) no-repeat; background-size:100%; background-position:0 0px;  display:inline-block; }
 .icon-services10 {width:150px; height:150px; background: url(images/icon-services10.jpg) no-repeat; background-size:100%; background-position:0 0px;  display:inline-block; }
-.icon-services11 {width:150px; height:150px; background: url(images/icon-services11.png) no-repeat; background-size:100%; background-position:0 0px;  display:inline-block; }
+.icon-services11 {width:150px; height:150px; background: url(images/icon-services11.png) no-repeat; background-size:100%; background-position:0 0px;  display:inline-block; } */
 
 
 
@@ -181,12 +181,6 @@ ul.services_list a:hover .icon-more {  width:30px; height:30px; background: url(
 ul.serviceslider li {  padding:0; margin:0; list-style:none; width:100%;}	
 ul.serviceslider li img { float:left; display:block; width:100%; padding:0; margin:0}
 
-
-
-/*****************************************************************************************************************
-SERVICES PANEL
-*****************************************************************************************************************/  
- 
 
 /*****************************************************************************************************************
 TALENT PANEL
