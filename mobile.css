@@ -4,7 +4,7 @@
 @media only screen and ( min-width: 220px) and ( max-width: 767px) {
 
 #home .site_logo .cornerstone p { margin:0px; padding:0px;}
-#home .site_logo .cornerstone img { width:100px; height:auto;}
+#home .site_logo .cornerstone img { width:200px; height:auto;}
 #home .site_logo .cornerstone .icon img  { width:30px; height:auto;} 
 #home .site_logo .cse img { width:80px; height:auto;}
 	

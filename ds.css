@@ -148,9 +148,7 @@ ul.services_list a:hover .icon-more {  width:30px; height:30px; background: url(
 
 
 
-.icon-services1, .icon-services2, .icon-services3, .icon-services4, .icon-services5, .icon-services6, .icon-services7, .icon-services8     {
- 
-}
+
 .icon-services1:hover, .icon-services2:hover, .icon-services3:hover, .icon-services4:hover, .icon-services5:hover, .icon-services6:hover, .icon-services7:hover, .icon-services8:hover    {
     filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
     -webkit-filter: grayscale(0%);
@@ -158,17 +156,15 @@ ul.services_list a:hover .icon-more {  width:30px; height:30px; background: url(
 }
  
 
-.icon-services1 {width:150px; height:150px; background: url(green.PNG) no-repeat; background-size:100%; background-position:0 0px;  display:inline-block; }
-.icon-services2 {width:150px; height:150px; background: url(yellow.PNG) no-repeat; background-size:100%; background-position:0 0px;  display:inline-block;   }
-.icon-services3 {width:150px; height:150px; background: url(lightgreen.PNG) no-repeat; background-size:100%; background-position:0 0px;  display:inline-block; }
-.icon-services4 {width:150px; height:150px; background: url(neon.PNG) no-repeat; background-size:100%; background-position:0 0px;  display:inline-block; }
-.icon-services5 {width:150px; height:150px; background: url(blue.PNG) no-repeat; background-size:100%; background-position:0 0px;  display:inline-block; }
-/* .icon-services6 {width:150px; height:150px; background: url(images/icon-services6.jpg) no-repeat; background-size:100%; background-position:0 0px;  display:inline-block; }
-.icon-services7 {width:150px; height:150px; background: url(images/icon-services7.jpg) no-repeat; background-size:100%; background-position:0 0px;  display:inline-block; }
-.icon-services10 {width:150px; height:150px; background: url(images/icon-services10.jpg) no-repeat; background-size:100%; background-position:0 0px;  display:inline-block; }
-.icon-services11 {width:150px; height:150px; background: url(images/icon-services11.png) no-repeat; background-size:100%; background-position:0 0px;  display:inline-block; } */
+.icon-services1 {width:150px; height:150px; background: url(images/services1.PNG) no-repeat; background-size:100%; background-position:0 0px;  display:inline-block; }
+.icon-services2 {width:150px; height:150px; background: url(images/services2.PNG) no-repeat; background-size:100%; background-position:0 0px;  display:inline-block;   }
+.icon-services3 {width:150px; height:150px; background: url(images/services3.PNG) no-repeat; background-size:100%; background-position:0 0px;  display:inline-block; }
+.icon-services4 {width:150px; height:150px; background: url(images/services4.PNG) no-repeat; background-size:100%; background-position:0 0px;  display:inline-block; }
+.icon-services5 {width:150px; height:150px; background: url(images/services5.PNG) no-repeat; background-size:100%; background-position:0 0px;  display:inline-block; }
 
-
+/* .icon-services1 , .icon-services2, .icon-services3, .icon-services4, .icon-services5{
+  border-radius: 27%;
+} */
 
 #services_wrapper {width:100%;   display:table; clear:both; }	
 #services_wrapper .service_left { width:45%; padding-right:5%;  display:table-cell;   vertical-align:top;}	
@@ -197,7 +193,7 @@ ul.talent_list a {text-decoration:none;    transition: all .6s ease; -webkit-tra
 ul.talent_list a:hover h2 { color:/*#ef4023*/ #EE8C23; }
 ul.talent_list a:hover .icon-more {  width:30px; height:30px; background: url(images/icon-more.png) no-repeat; background-position:0 -50px;  }
 
-.pic-talent { width:100%; display:block; text-align:center;
+.pic-talent { width:100%; display:block; text-align:center; 
 	 /*filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); 
     filter: gray;  
     -webkit-filter: grayscale(100%);  
@@ -206,6 +202,8 @@ ul.talent_list a:hover .icon-more {  width:30px; height:30px; background: url(im
 }
 .pic-talent:hover, ul.talent_list li:hover .pic-talent { filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
     -webkit-filter: grayscale(0%);	}
+
+.pic-talent img{ border-radius: 25%;}
 	
 	
 #talent_wrapper {  width:100%;   display:table; clear:both; }	
