@@ -193,18 +193,22 @@ ul.talent_list a {text-decoration:none;    transition: all .6s ease; -webkit-tra
 ul.talent_list a:hover h2 { color:/*#ef4023*/ #EE8C23; }
 ul.talent_list a:hover .icon-more {  width:30px; height:30px; background: url(images/icon-more.png) no-repeat; background-position:0 -50px;  }
 
-.pic-talent { width:100%; display:block; text-align:center; 
+.pic-talent { width:100%; display:block; text-align:center; }
 	 /*filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); 
     filter: gray;  
     -webkit-filter: grayscale(100%);  
     -webkit-transition: all .6s ease;  
     -webkit-backface-visibility: hidden;  /*/
-}
+
 .pic-talent:hover, ul.talent_list li:hover .pic-talent { filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
     -webkit-filter: grayscale(0%);	}
 
 .pic-talent img{ border-radius: 25%;}
-	
+
+
+.pic-brands { width:100%; display:block; text-align:center; }
+  
+.pic-brands img{border-radius: 2%;}
 	
 #talent_wrapper {  width:100%;   display:table; clear:both; }	
 #talent_wrapper .talent_left {  width:45%; padding-right:5%;  display:table-cell;   vertical-align:top;}	
