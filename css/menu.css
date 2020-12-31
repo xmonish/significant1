@@ -48,7 +48,7 @@ ul.menu li a  { text-decoration:none; display:block; color:#333; height:auto; pa
 
 
 
-#nonExTalent ul li:first-child, #nonExTalent ul li:nth-child(6), #nonExTalent ul li:nth-child(2), #nonExTalent ul li:nth-child(10), #nonExTalent ul li:nth-child(12), #nonExTalent ul li:nth-child(13), #nonExTalent ul li:nth-child(6){
+/* #nonExTalent ul li:first-child, #nonExTalent ul li:nth-child(6), #nonExTalent ul li:nth-child(2), #nonExTalent ul li:nth-child(10), #nonExTalent ul li:nth-child(12), #nonExTalent ul li:nth-child(13), #nonExTalent ul li:nth-child(6){
 display:none;
 }
  #nonExTalent ul li:nth-child(5) h2{
@@ -59,7 +59,7 @@ margin-top: -37px;
      content: "Shaun Pollock";
     visibility: visible;
     display: block;
-}
+} */
 #Talent ul li:nth-child(5), #Talent ul li:nth-child(10),#Talent ul li:nth-child(11), #Talent ul li:nth-child(19), #Talent ul li:nth-child(16){
 /*display:none;*/
 }
