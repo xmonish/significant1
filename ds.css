@@ -118,6 +118,7 @@ HOME PANEL
 #home .site_logo .cornerstone {  display:inline-block; text-align:center; padding:0.5em; width:38%; vertical-align:top;} 
 #home .site_logo .cornerstone p {  display:block; text-align:center; padding:0.2em;} 
 #home .site_logo .cse {  display:inline-block; text-align:center; padding:0.5em; width:38%;} 
+/* #home .site_logo .cornerstone .icon img{ display: block; margin-left: auto; margin-right: auto; float: left;} */
 
 #home>div{display:inline-block;vertical-align:middle;position:relative;z-index:10;text-align:center; width:60%; }
 #home .site_desc p { font-size:1.8em; line-height:1.5em; color:#333; text-align:center; margin:0px;}
@@ -133,7 +134,7 @@ HOME PANEL
 /*****************************************************************************************************************
 SERVICES PANEL
 *****************************************************************************************************************/
-#Services {display:inline-block; width:100%; height:auto; bckground:#f1f1f1; background:#fff; }
+#Services {display:inline-block; width:100%; height:auto; background:#f1f1f1; background:#fff; }
 #servicesmain {display:block; width:100%; height:auto;}
 
 /*========== Services ==========*/
